@@ -20,7 +20,6 @@
 'use strict';
 
 const Book = require('./book');
-const BookDecorator = require('./book-decorator')
 const GiftWrapDecorator = require('./gift-wrap-decorator');
 const HardBindDecorator = require('./hardbind-book-decorator');
 

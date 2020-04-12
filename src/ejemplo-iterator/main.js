@@ -20,7 +20,7 @@ const Iterator = require('./iterator');
 const HashIterator = require('./hashIterator');
 
 function main() {
-  const numbers = [1,2,3,4,5];
+  const numbers = [1, 2, 3, 4, 5];
   const numbersIterator = new Iterator(numbers);
   
   console.log('---Array of numbers---');

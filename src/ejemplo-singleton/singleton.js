@@ -29,11 +29,11 @@ class UserStore {
    return UserStore.instance;
   }
 
-  add(item){
+  add(item) {
     this._data.push(item);
   }
 
-  get(id){
+  get(id) {
     return this._data.find(d => d.id === id);
   }
 }

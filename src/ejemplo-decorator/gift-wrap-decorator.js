@@ -26,7 +26,6 @@ class GiftWrapDecorator extends BookDecorator {
     super(book);
     this.book.isGiftWrapped = true;
     this.book.unwrap = function() {
-      console.log('entro');
       return `Unwrapped ${book.getDetails()}`;
     };
   }

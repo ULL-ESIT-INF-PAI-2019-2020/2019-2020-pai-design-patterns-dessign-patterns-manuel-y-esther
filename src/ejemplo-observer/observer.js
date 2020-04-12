@@ -1,3 +1,24 @@
+/**
+ *  Escuela Superior de Ingeniería y Tecnología
+ *  Grado en Ingeniería Informática
+ *  Asignatura: Programación de Aplicaciones Interactivas
+ *  Curso: 3º
+ *  Presentación patrones de diseño
+ *  @author Manuel Andrés Carrera Galafate y Esther Jorge Paramio
+ *  @since 05/04/2020
+ *  @desc Implementación del código ejemplo de implementación del patrón
+ *  observer. Básicamente tenemos un observador al que se suscriben distintos
+ *  sujetos y cada vez que se aumenta un valor que contiene se le notifica
+ *  a todos los sujetos este incremento.
+ *  References:
+ *  Repositorio git con este (y otros) códigos:
+ *              https://github.com/ULL-ESIT-INF-PAI-2019-2020/2019-2020-pai-design-patterns-dessign-patterns-manuel-y-esther
+ *
+ *  @file Programa de incremento de valor.
+ *
+ *  @version  05/04/2020 - Creación (primera versión) del código.
+ */
+
 class Observable {
   constructor() {
       this.observers = [];

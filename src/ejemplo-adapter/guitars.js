@@ -56,16 +56,16 @@ class ElectroAcousticGuitar {
 const main = () => {
   // Sin adaptador.
 
-  const myAcousticGuitar = new Guitar;
-  const myElectricGuitar = new ElectricGuitar;
-  // Empieza concierto
-  console.log('Concert 1 Starts!');
-  myAcousticGuitar.playGuitar();
-  myElectricGuitar.turnOnGuitar();
-  // Acaba el concierto
-  myAcousticGuitar.stopPlaying();
-  myElectricGuitar.turnOffGuitar();
-  console.log('Concert 2 ends.\n\n');
+  // const myAcousticGuitar = new Guitar;
+  // const myElectricGuitar = new ElectricGuitar;
+  // // Empieza concierto
+  // console.log('Concert 1 Starts!');
+  // myAcousticGuitar.playGuitar();
+  // myElectricGuitar.turnOnGuitar();
+  // // Acaba el concierto
+  // myAcousticGuitar.stopPlaying();
+  // myElectricGuitar.turnOffGuitar();
+  // console.log('Concert 1 ends.\n\n');
 
   // Con adaptador
   const myBandInstruments = [new ElectroAcousticGuitar, new ElectricGuitar];
