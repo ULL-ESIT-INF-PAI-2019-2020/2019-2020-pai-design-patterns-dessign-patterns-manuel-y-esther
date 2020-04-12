@@ -55,15 +55,13 @@ class FrogBuilder {
   }
 }
 
-const leon = new FrogBuilder('Leon', 'male')
+const main = () => {
+  const leo = new FrogBuilder('Leo', 'male')
   .setWeight(14)
   .setHeight(3.7)
   .build();
-
-const main = () => {
-  const myFrog = new Frog('Carlos la rana', 9, 3, 'male');
-  console.log(myFrog.name);
-  myFrog.eat('fly');
+  console.log(leo.name);
+  leo.eat('fly');
 }
   
 main();
